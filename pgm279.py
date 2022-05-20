@@ -19,4 +19,3 @@ class Athreeno(Atwono):
         return(self._z)
         return(self._x)
         return(self._y)
-    

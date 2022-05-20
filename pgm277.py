@@ -1,5 +1,4 @@
 # Accessing two numbers using OOPs Inheritance
-
 class Atwono():
     _x=None
     _y=None
@@ -24,4 +23,3 @@ class Atwono():
         return (self._x,self._y)
     def print(self):
         print(self._x,self._y)
-#main

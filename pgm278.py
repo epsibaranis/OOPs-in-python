@@ -1,5 +1,4 @@
 #Accessing two numbers using OOPs Inheritance
-
 from pgm277 import Atwono
 class child(Atwono):
       def __init__(self,a=10,b=20):

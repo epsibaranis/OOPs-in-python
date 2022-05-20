@@ -1,5 +1,4 @@
 # Operate three numbers  using OOPs Inheritance
-
 from pgm275 import Athreeno
 class Operatethreeno(Athreeno):
    def __init__(self,a=100,b=200,c=300):
