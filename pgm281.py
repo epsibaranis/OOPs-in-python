@@ -17,8 +17,7 @@ class point(Atwono):
         c=point()
         c._x=self._x*b._x
         c._y=self._y*b._y
-        return c
-#main
+        return c 
 a=point()
 b=point()
 c=a.add(b)
@@ -29,4 +28,4 @@ d.print()
 a.setxy(20,10)
 b.setxy(10,50)
 s=a.multiply(b)
-s.print()    
+s.print()     
