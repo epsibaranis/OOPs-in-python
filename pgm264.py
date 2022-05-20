@@ -7,7 +7,7 @@ class Aofcircle():
     def find(self):
         self.__a=22/7*self.__r**2
     def printf(self):
-         print(self.__a)
+         print("area of ciecle:",self.__a)
 #main
 m=Aofcircle()
 m.set()

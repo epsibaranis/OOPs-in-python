@@ -7,7 +7,7 @@ class Aofcircle():
     def find(self):
         self.__a=22/7*self.__r**2
     def print(self):
-        print(self.__a)
+        print("Area of circle:",self.__a)
 #main
 m=Aofcircle(7)
 m.find()

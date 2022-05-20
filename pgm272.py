@@ -23,4 +23,4 @@ class Atwono():
     def getxy(self):
         return (self.__x,self.__y)
     def print(self):
-        print(self.__x,self.__y)
+        print(" two numbers:",self.__x,self.__y)

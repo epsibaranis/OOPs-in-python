@@ -15,5 +15,4 @@ a=S2nos()
 a=S2nos(20)
 a.set()
 a.find()
-a.print()
-    
+a.print()     

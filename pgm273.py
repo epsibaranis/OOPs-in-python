@@ -1,5 +1,4 @@
 # Accessing two numbers using OOPs Inheritance
-
 from pgm272 import Atwono
 class Child(Atwono):
     def __init__(self,a=100,b=200):
@@ -43,18 +42,16 @@ class Child(Atwono):
 a=Child()
 z=a.S2no()
 a.printf()
-print(z)
+print("Sum of  two numbers:",z)
 d=a.Diffof2no()
-print(d)
+print("Difference of two numbers:",d)
 b=a.Productof2no()
-print(b)
+print("product of two numbers:",b)
 m=a.Divideof2no()
-print(m)
+print("Division of two numbers:",m)
 n=a.Floorof2no()
-print(n)
+print("Floor of two numbers",n)
 q=a.Biggestof2no()
-print(q)
+print("Biggest of two numbers:",q)
 r=a.Smallestof2no()
-print(r)
-
-    
+print("Smallest of two numbers:",r)   

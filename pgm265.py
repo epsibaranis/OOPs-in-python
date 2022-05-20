@@ -1,5 +1,4 @@
 # Biggest of three numbers using OOPs
-
 class Bofthree():
     __x=None
     __y=None
@@ -12,7 +11,7 @@ class Bofthree():
     def find(self):
         self.__b=(self.__x if self.__x>self.__z else self.__z)if self.__x>self.__y else(self.__y if self.__y>self.__z else self.__z)
     def printf(self):
-         print(self.__b)
+         print("Biggest of three numbers",self.__b)
 #main
 a= Bofthree()
 a.set()

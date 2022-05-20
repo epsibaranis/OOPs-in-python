@@ -12,28 +12,28 @@ class S2nos():
     def getx(self):
         return (self.__x)
     def printx(self):
-        print(self.__x)
+        print("x ineger",self.__x)
     def sety(self,y=20):
        self.__y=y
     def gety(self):
         return (self.__y)
     def printy(self):
-        print(self.__y)
+        print("Y ineger",self.__y)
     def setxy(self,x=10,y=20):
        self.__x=x
        self.__y=y
     def getxy(self):
         return (self.__x,self.__y)
     def printxy(self):
-       print(self.__x)
-       print(self.__y)
+       print("x ineger",self.__x)
+       print("Y ineger",self.__y)
     def reset(self,x=0,y=0):
         self.__x=x
         self.__y=y
     def find(self):
         self.__s=self.__x+self.__y
     def printf(self):
-        print(self.__s)
+        print("Sum of 2-integer no's",self.__s)
 #main
 m=S2nos()
 m.find()

@@ -9,7 +9,7 @@ class S2nos():
     def find(self):
         self.__s=self.__a+self.__b
     def print(self):
-        print(self.__s)
+        print("sum of 2-integer no's:",self.__s)
 #main
 a=S2nos()
 a.find()
